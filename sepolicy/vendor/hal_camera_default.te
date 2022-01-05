@@ -20,6 +20,7 @@ allow hal_camera_default vendor_hal_qspmhal_hwservice:hwservice_manager find;
 allow hal_camera_default vendor_xdsp_device:chr_file ioctl;
 
 get_prop(hal_camera_default, ctl_default_prop)
+get_prop(hal_camera_default, vendor_camera_prop)
 get_prop(hal_camera_default, vendor_db_security_prop)
 get_prop(hal_camera_default, vendor_mmi_prop)
 
