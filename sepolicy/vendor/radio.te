@@ -1,0 +1,2 @@
+set_prop(radio, vendor_default_prop)
+allow radio zygote:unix_stream_socket getopt;

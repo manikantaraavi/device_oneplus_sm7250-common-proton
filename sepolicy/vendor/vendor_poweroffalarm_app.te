@@ -1,0 +1,3 @@
+allow vendor_poweroffalarm_app system_data_file:dir search;
+allow vendor_poweroffalarm_app user_profile_root_file:dir search;
+allow vendor_poweroffalarm_app zygote:unix_stream_socket getopt;
