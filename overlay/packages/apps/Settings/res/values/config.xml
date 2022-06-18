@@ -32,5 +32,9 @@
          devices will be able to vary their amplitude but do not possess enough dynamic range to
          have distinct intensity levels -->
     <bool name="config_vibration_supports_multiple_intensities">true</bool>
+    
+    <!-- Maintainer info -->
+    <string name="config_maintainer_name" translatable="false">Manikantaraavi</string>
+    <string name="config_maintainer_link"  translatable="false">https://github.com/Manikantaraavi</string>
 
 </resources>
